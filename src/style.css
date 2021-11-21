@@ -1,0 +1,148 @@
+body {
+    margin: 0;    
+}
+
+header{
+    box-sizing: border-box;
+    margin: 0;
+    height: 3vh;
+    color: white;
+    background-color: #305e08;
+    
+}
+
+main{
+    display: flex;
+    height: 95vh;
+}
+
+#sidebar{
+    box-sizing: border-box;
+    width: 15%;
+    margin: 0;  
+}
+
+#content{
+    width: 85%;
+    padding: 10px;
+    background-color: #8fa878;    
+}
+
+#toolBar{    
+    display: flex;
+    margin-bottom: 10px;
+    height: 5%;
+    align-items: center;
+}
+
+.functionalBtn {
+    width: fit-content;  
+    height: fit-content;  
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todoBox {    
+    display: flex; 
+    height: 95%;
+    gap: 1vw;        
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+}
+
+.todoList {
+    display: flex;
+    flex-flow: column;   
+    justify-content: flex-start;
+    align-items: center;
+    background-color: grey;
+    width: 450px;
+    gap: 1%
+}
+
+.head {
+    box-sizing: border-box;
+    width: 100%;    
+    height: 5%;
+    padding: 3%;
+    display: flex;    
+    align-items: center;
+}
+
+.name{    
+    font-size: 270%;
+    flex: 7;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addTodoBtn {
+    display: flex;
+    flex-flow: nowrap;
+    flex: 3;
+    font-size: 80%;
+}
+
+.body {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+
+.todo {
+    box-sizing: border-box;
+    width: 90%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: white;  
+    display: flex;
+    flex-flow: column;    
+}
+
+.top {
+    margin: 1% 5% 0 5%;
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    width: 30%;
+}
+
+.description {
+    margin: 0 5%;
+    height: 50%;
+}
+
+.foot {
+    height: 28%;
+    margin: 0 5% 1% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteBtn {
+    font-size: 3%;
+}
+
+.hasDone {
+    background-color: black;
+}
+
+footer {
+    background-color: #1d3805;
+    height: 2vh;
+}
